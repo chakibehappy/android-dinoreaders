@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginStart="15dp"
+    android:layout_marginVertical="10dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:clickable="true"
+        app:cardElevation="10dp"
+        android:focusable="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:alpha="0.5"
+            android:background="#fef200"
+            >
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_cover_3"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:background="@color/blue"
+                android:contentDescription="@string/create_your_own_story"
+                android:elevation="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_cover_4"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:background="@color/blue"
+                android:contentDescription="@string/create_your_own_story"
+                android:elevation="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_cover_1"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/create_your_own_story"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@color/blue"
+                android:elevation="10dp"/>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_cover_2"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/create_your_own_story"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_1"
+                android:background="@color/blue"
+                android:elevation="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="long title, very long one"
+        android:textColor="#396fa2"
+        android:fontFamily="@font/ruddy_bold"
+        android:layout_marginVertical="5dp"
+        android:textSize="14sp" />
+</LinearLayout>

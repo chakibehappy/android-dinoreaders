@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/linear_skin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@drawable/gradient_yellow">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/material_skin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/yellow"
+            app:strokeColor="@color/transparent"
+            android:layout_marginTop="0.5dp"
+            >
+            <gibbie.dino.readers.customlayout.OutlineTextView
+                android:id="@+id/btn_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                app:textSize="24sp"
+                app:strokeWidth="2sp"
+                android:gravity="center"
+                android:fontFamily="@font/ruddy_black"
+                app:textFillColor="@color/white"
+                app:text="Save!"/>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</merge>

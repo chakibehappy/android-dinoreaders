@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_library"
+        android:icon="@drawable/leave"
+        android:title="Library" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_collection"
+        android:icon="@drawable/collection"
+        android:title="Collection" />
+    <item
+        android:id="@+id/navigation_class"
+        android:icon="@drawable/collection"
+        android:title="Class" />
+
+
+
+</menu>

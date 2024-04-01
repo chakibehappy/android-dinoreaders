@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB"
+    tools:context=".ui.activities.placementtest.PlacementTestActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingHorizontal="32dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/vw_independent_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/independent_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 8 : Independent Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_proficient_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/proficient_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="12sp"
+                        android:text="Lvl 7 : Proficient Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_advanced_fluent_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/advanced_fluent_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 6 : Advanced Fluent Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_fluent_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/fluent_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 5 : Fluent Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_early_fluent_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/early_fluent_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 4 : Early Fluent Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_emergent_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/emergent_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 3 : Emergent Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_early_emergent_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/early_emergent_reader"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 2 : Early Emergent Reader"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vw_pre_reading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_flat_rectangle"
+                    android:backgroundTint="@color/pre_reading"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="2dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textSize="13dp"
+                        android:text="Lvl 1 : Pre-Reading"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/bg_blue"
+                app:cardCornerRadius="10dp"
+                android:layout_marginRight="42dp"
+                android:layout_marginLeft="21dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:paddingHorizontal="28dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp"
+                        android:text="Placement Test"
+                        android:layout_marginBottom="8dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:lineHeight="17dp"
+                        android:text="Hello parents/guardians! Welcome to our placement test to help determine your child's reading capability!"
+                        android:layout_marginBottom="8dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:lineHeight="17dp"
+                        android:text="Ensuring that your child gets the best experience throughout their reading and learning journey on Dinoreader,"
+                        android:layout_marginBottom="8dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:lineHeight="17dp"
+                        android:text="We have broken down the different reading levels based on the (DRA) Development Reading Assessment.
+"
+                        android:layout_marginBottom="8dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ruddy_bold"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:lineHeight="17dp"
+                        android:text="Levels are divided to categorise based on overall age and education levels as a base guide
+"
+                        android:layout_marginBottom="8dp"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/carousel_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hero_image"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_3"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/book_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="BookTitle"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textSize="@dimen/_9sdp" />
+<!--                    <GridLayout-->
+<!--                        android:id="@+id/gl_reading_level"-->
+<!--                        android:layout_marginTop="@dimen/_4sdp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:columnCount="4"-->
+<!--                        android:useDefaultMargins="true"-->
+<!--                        android:orientation="horizontal">-->
+<!--                    </GridLayout>-->
+                    <TextView
+                        android:id="@+id/book_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:text="Lorem ipsum Loren lorem lorem lorem loreal loread"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/quicksand_light"
+                        android:textSize="@dimen/_8sdp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <GridLayout
+                        android:id="@+id/gl_categories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:columnCount="4"
+                        android:useDefaultMargins="true"
+                        android:orientation="horizontal">
+                    </GridLayout>
+                </LinearLayout>
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

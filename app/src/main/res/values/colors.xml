@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#555151</color>
+    <color name="colorAccent">#555151</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#929292</color>
+    <color name="red">#f00</color>
+    <color name="green">#3F653D</color>
+    <color name="brown">#964B00</color>
+    <color name="blue">#586CF5</color>
+    <color name="orange">#E65100</color>
+    <color name="dull_white">#E2E2E2</color>
+    <color name="black">#000</color>
+    <color name="bg_color1">#586CF5</color>
+    <color name="bg_color_default">#ffffff</color>
+    <color name="bg_color_green">#3F653D</color>
+    <color name="bg_color_brown">#964B00</color>
+    <color name="bg_color_blue">#586CF5</color>
+    <color name="transparent_white">#00ffffff</color>
+    <color name="bottom_nav_default">#3F653D</color>
+    <color name="bottom_nav_green">#3F653D</color>
+    <color name="bottom_nav_brown">#964B00</color>
+    <color name="bottom_nav_blue">#586CF5</color>
+    <color name="status_bar_orange">#ff8c00</color>
+    <color name="status_bar_blue">#4069ff</color>
+    <color name="status_bar_brown">#b0e3f4</color>
+    <color name="status_bar_new">#b0e3f4</color>
+    <color name="search_bar_bg">#EEF0F1</color>
+    <color name="search_bar_text">#565656</color>
+
+    /////////////// new Color Form XD /////
+    <color name="bottomNav">#0E40FF</color>
+    <color name="colorEtHint">#bfbfbf</color>
+    <color name="colorEt">#000</color>
+    <color name="colorLoginBtText">#341650</color>
+    <color name="textColorPrimary">#FFFFFFFF</color>
+    <color name="carouselBg">#567BFF</color>
+    <color name="editDarkBg">#80000000</color>
+    <color name="dialogBg">#efefef</color>
+
+    ////////////// new Color on Create Your Own Story ////
+    <color name="light_brown">#CB8762</color>
+    <color name="light_green">#93C27E</color>
+
+    ////////////// new Color on Reading Buddy ////
+    <color name="red_brown">#EE4E38</color>
+    <color name="selectedAvatarColor">#80FF5722</color>
+
+    <color name="selected_avatar_outline">#FDD835</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#AD000000</color>
+    <color name="background">#35A8E7</color>
+    <color name="independent_reader">#fec439</color>
+    <color name="proficient_reader">#f68b01</color>
+    <color name="advanced_fluent_reader">#fe0000</color>
+    <color name="fluent_reader">#fd42c3</color>
+    <color name="early_fluent_reader">#711bff</color>
+    <color name="emergent_reader">#4069ff</color>
+    <color name="early_emergent_reader">#01d7d7</color>
+    <color name="pre_reading">#00af5a</color>
+    <color name="bg_blue">#5278ff</color>
+
+    <color name="advanced_reading">#fe6e6e</color>
+    <color name="transitional_reading">#ffb701</color>
+    <color name="developing_reading">#8be224</color>
+    <color name="early_reading">#06d4c7</color>
+    <color name="emergent_reading">#54c2ff</color>
+
+    <color name="book_tab">#fef3da</color>
+    <color name="collection_tab">#abe7ff</color>
+
+    <color name="yellow">#fef200</color>
+    <color name="active_tab">#58cefe</color>
+    <color name="inactive_tab">#CCCCCC</color>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg"
+    tools:context=".ui.activities.quiz.QuizActivity">
+    <LinearLayout
+        android:id="@+id/ll_question_quiz_section"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingHorizontal="80dp"
+            android:paddingVertical="24dp">
+            <gibbie.dino.readers.customlayout.OutlineTextView
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                app:customFont="@font/ruddy_bold"
+                app:textSize="28sp"
+                app:strokeWidth="2.5dp"
+                app:text="Who is the girl with the crying face, looking at million of sign, she know that life is a running race, her face shouldnt show any sign"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="64dp"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ll_answer_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_margin="32dp"
+                android:background="@drawable/quiz_button_yellow"
+                tools:ignore="NestedWeights">
+                <gibbie.dino.readers.customlayout.OutlineTextView
+                    android:id="@+id/tv_answer_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    app:strokeWidth="2.5dp"
+                    app:customFont="@font/ruddy_bold"
+                    app:textSize="28sp"
+                    app:text="Answer 1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/ll_answer_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_margin="32dp"
+                android:background="@drawable/quiz_button_blue">
+                <gibbie.dino.readers.customlayout.OutlineTextView
+                    android:id="@+id/tv_answer_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    app:strokeWidth="2.5dp"
+                    app:customFont="@font/ruddy_bold"
+                    app:textSize="28sp"
+                    app:text="Answer 2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_jumble_word_section"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/ll_jumble_word_answer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingHorizontal="64dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_jumble_word_question"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="24dp"
+                android:paddingHorizontal="32dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/btn_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="14dp"
+        android:src="@drawable/close_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

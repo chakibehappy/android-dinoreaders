@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.setting.ApplicationSettingActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textColor="@color/black"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp"
+                        android:text="@string/settings"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_avatar"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/setting_avatar_item"
+                android:layout_margin="@dimen/_12sdp"
+                android:orientation="horizontal"
+                tools:itemCount="3"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+            <LinearLayout
+                android:id="@+id/ll_auto_correct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#dedede"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="false"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginEnd="48dp"
+                            android:textSize="16sp"
+                            android:text="@string/auto_correct_for_create_your_own_story"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            tools:ignore="RelativeOverlap" />
+
+                        <Switch
+                            android:id="@+id/switch_auto_correct"
+                            android:trackTint="@color/blue"
+                            android:thumbTint="@color/blue"
+                            android:checked="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UseSwitchCompatOrMaterialXml"
+                            tools:targetApi="m" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#dedede"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_book_based_reading_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="false"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginEnd="48dp"
+                            android:textSize="16sp"
+                            android:text="@string/only_show_books_based_on_reading_level_or_higher"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            tools:ignore="RelativeOverlap" />
+
+                        <Switch
+                            android:id="@+id/switch_book_based_reading_level"
+                            android:trackTint="@color/blue"
+                            android:thumbTint="@color/blue"
+                            android:checked="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UnusedAttribute,UseSwitchCompatOrMaterialXml" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#dedede"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_recommend_based_reading_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="false"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginEnd="48dp"
+                            android:textSize="16sp"
+                            android:text="@string/only_show_recommend_based_on_reading_level_or_higher"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            tools:ignore="RelativeOverlap" />
+
+                        <Switch
+                            android:id="@+id/switch_recommend_based_reading_level"
+                            android:trackTint="@color/blue"
+                            android:thumbTint="@color/blue"
+                            android:checked="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UnusedAttribute,UseSwitchCompatOrMaterialXml" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#dedede"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_activated_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="false"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginEnd="48dp"
+                            android:textSize="16sp"
+                            android:text="@string/enable_reading_time"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            tools:ignore="RelativeOverlap" />
+
+                        <Switch
+                            android:id="@+id/switch_reading_time"
+                            android:trackTint="@color/blue"
+                            android:thumbTint="@color/blue"
+                            android:checked="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UnusedAttribute,UseSwitchCompatOrMaterialXml" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#dedede"
+                    android:layout_height="1dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_reading_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+                    <TextView
+                        android:id="@+id/tv_label_reading_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="14dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:text="@string/reading_day_s"/>
+                    <Spinner
+                        android:id="@+id/spinner_reading_day"
+                        android:layout_marginStart="14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_calculated_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+                    <TextView
+                        android:id="@+id/tv_label_calculated_by"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="14dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:text="@string/calculated_by"/>
+                    <Spinner
+                        android:id="@+id/spinner_calculated_by"
+                        android:layout_marginStart="14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_reading_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_label_reading_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="14dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:text="@string/reading_time"/>
+                    <Spinner
+                        android:id="@+id/spinner_reading_time"
+                        android:layout_marginStart="14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#dedede"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_placement_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginEnd="48dp"
+                        android:textSize="16sp"
+                        android:text="Placement Test"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        tools:ignore="RelativeOverlap" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

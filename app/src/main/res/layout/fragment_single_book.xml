@@ -1,0 +1,239 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="#3f69ff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="#5277ff"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="5dp">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/back_arrow_new" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ruddy_bold"
+                android:paddingEnd="@dimen/_40sdp"
+                android:gravity="center"
+                android:textColor="@color/textColorPrimary"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:text="Book Title"/>
+        </LinearLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_to_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_350sdp">
+
+                        <ImageView
+                            android:id="@+id/book_cover"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/book_1"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:gravity="center">
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:id="@+id/btn_read"
+                                    android:layout_width="200dp"
+                                    android:layout_height="60dp"
+                                    android:background="@drawable/btn_begin" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/_16sdp"
+                        android:paddingRight="@dimen/_16sdp"
+                        android:elevation="15dp"
+                        android:background="#5277ff">
+<!--                        <TextView-->
+<!--                            android:id="@+id/book_description"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="@dimen/_16sdp"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="@dimen/_12sdp"-->
+<!--                            android:paddingLeft="@dimen/_16sdp"-->
+<!--                            android:paddingRight="@dimen/_16sdp"/>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginVertical="10dp">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/ruddy_bold"
+                                    android:textSize="24sp"
+                                    android:text="Author"/>
+                                <TextView
+                                    android:id="@+id/tv_author"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/ruddy_regular"
+                                    android:textSize="14sp"
+                                    android:text="Author, ....."/>
+                            </LinearLayout>
+                            <ImageView
+                                android:id="@+id/iv_favourite_icon"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/heart"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tv_reading_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/ruddy_bold"
+                            android:textSize="18sp"
+                            android:text="Reading Level : 1"
+                            android:layout_marginBottom="10dp"/>
+<!--                        <GridLayout-->
+<!--                            android:id="@+id/gl_categories"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:columnCount="4"-->
+<!--                            android:useDefaultMargins="true"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                        </GridLayout>-->
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Parent_recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_selection"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="200dp"
+        android:orientation="vertical"
+        android:background="#99000000">
+
+        <LinearLayout
+            android:id="@+id/btn_read_to_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+            <gibbie.dino.readers.customlayout.StylishButton
+                android:layout_width="match_parent"
+                android:paddingVertical="15dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                app:buttonText="Read To Me"
+                app:buttonColor="#5278ff"
+                app:gradientBackground="@drawable/gradient_blue"
+                app:buttonTextSize="22sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_read_alone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <gibbie.dino.readers.customlayout.StylishButton
+                android:layout_width="match_parent"
+                android:paddingVertical="15dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="@color/black"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                app:buttonText="Read Alone"
+                app:buttonColor="#5278ff"
+                app:gradientBackground="@drawable/gradient_blue"
+                app:buttonTextSize="22sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Dino Readers</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="home">Home</string>
+
+
+    <string name="something_wrong">Something went wrong please try again.</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="register">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_library">Your Library</string>
+    <string name="title_collection">Collections</string>
+    <string name="title_class">Classes</string>
+    <string name="read_btn">READ</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="password_reminder">Password to be at least 8 characters with uppercase, lowercase and number</string>
+    <string name="server_wrong">Something went wrong from server side</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="create">CREATE</string>
+    <string name="save_to_phone">Save to Phone</string>
+    <string name="update_photo">Update Photo</string>
+    <string name="choose_action">Choose Action</string>
+    <string name="save_to_phone_successfully">Saved to Phone Successfully.</string>
+    <string name="valid_image">Please upload a Valid Image File</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="manage_profile">Manage Profiles</string>
+    <string name="update">Update</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="age">Date of Birth</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="undisclosed">Undisclosed</string>
+    <string name="connect_with">Or connect using</string>
+    <string name="server_client_id">421889160139-lb85juqbq9jnk1pbfuqmmdobg70l70d2.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">979038096238737</string>
+    <string name="fb_login_protocol_scheme">fb979038096238737</string>
+    <string name="admob_banner_app_id">ca-app-pub-8633439067503465~6724479151</string>
+    <!--    <string name="admob_banner_unit_id">ca-app-pub-8633439067503465/4846622408</string>-->
+    <!--    sample-->
+    <string name="admob_banner_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="list_title">List</string>
+    <string name="collection_details_description">Description</string>
+    <string name="back_button">back button</string>
+    <string name="background_image">background image</string>
+    <string name="join">Join</string>
+    <string name="enter_class_code">Enter Class Code</string>
+    <string name="create_your_own_story">Create Your Own Story</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="speak">Speak</string>
+    <string name="listen">Listen</string>
+    <string name="edit">Edit</string>
+    <string name="record_msg">Speak to record and wait while system recognize the voice.</string>
+    <string name="spellchecker_name">SpellChecker</string>
+    <string name="settings">Settings</string>
+    <string name="auto_correct_for_create_your_own_story">Auto correct for Create Your Own Story</string>
+    <string name="only_show_books_based_on_reading_level_or_higher">Only show books based on Reading Level (or higher)</string>
+    <string name="only_show_recommend_based_on_reading_level_or_higher">Only show recommend based on Reading Level (or higher)</string>
+    <string name="enable_reading_time">Set time limit for access App</string>
+    <string name="reading_day_s">Reading Day(s)</string>
+    <string name="calculated_by">Calculated by</string>
+    <string name="reading_time">Reading Time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

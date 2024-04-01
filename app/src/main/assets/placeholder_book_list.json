@@ -1,0 +1,1619 @@
+{
+  "success": true,
+  "book": [
+    {
+    "id": "1",
+    "title": "Foxy Joxy Plays A Trick",
+    "total_page": "18",
+    "total_story_page": 12,
+    "folder_name": "foxy-joxy-plays-a-trick",
+    "thumbnail": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_cover.jpg",
+    "pages": [{
+      "id": "1",
+      "text": "Foxy Joxy Plays A Trick",
+      "is_story_page": true,
+      "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_cover.jpg",
+      "image_width": "567",
+      "image_height": "567",
+      "audio_url": ""
+    },
+      {
+        "id": "2",
+        "text": "Foxy Joxy Plays A Trick This books belong to",
+        "is_story_page": false,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page1.jpg",
+        "image_width": "567",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "3",
+        "text": "",
+        "is_story_page": false,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page2.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "4",
+        "text": "",
+        "is_story_page": false,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page3.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "5",
+        "text": "Foxy Joxy was a sly fox. He sold big, fresh watermelons.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page4.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "6",
+        "text": "\"You are asking too much,\" said Gia Giraffe. \"Your price is too high,\" said Rabbit Jabbit.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page5.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "7",
+        "text": "Foxy Joxy had a clever idea.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page6.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "8",
+        "text": "He slit open a big watermelon, scooped out the fruit, and gobbled it up.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page7.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "9",
+        "text": "Then he filled it with water! He took a needle and thread and sewed the watermelon back together.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page8.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "10",
+        "text": "He sold his watermelons for a cheap price. Many animals bought from Foxy Joxy.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page9.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "11",
+        "text": "\"This watermelon has only water in it,\" complained Funky Monkey.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page10.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "12",
+        "text": "\"Well, you got what you paid for,\" said Foxy Joxy.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page11.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "13",
+        "text": "\"We need to teach Foxy Joxy a lesson,\" said Ellie Elephant.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page12.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "14",
+        "text": "The animals gathered around and came up with a plan. \"I have an idea,\" said Oliver Owl.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page13.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "15",
+        "text": "They took an empty watermelon, stuffed Foxy Joxy into it and played a game of football with it.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page14.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "16",
+        "text": "Foxy Joxy was dizzy! He learnt his lesson and never cheated again.",
+        "is_story_page": true,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page15.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "17",
+        "text": "",
+        "is_story_page": false,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page16.jpg",
+        "image_width": "1134",
+        "image_height": "567",
+        "audio_url": ""
+      },
+      {
+        "id": "18",
+        "text": "",
+        "is_story_page": false,
+        "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/foxy-joxy-plays-a-trick\/images\/foxy-joxy-plays-a-trick_english_20170320_page17.jpg",
+        "image_width": "567",
+        "image_height": "567",
+        "audio_url": ""
+      }
+    ],
+    "created_at": "2023-01-12 20:59:51"
+  }
+    ,
+    {
+      "title": "A Very Busy Day",
+      "folder_name": "a-very-busy-day",
+      "total_page": "18",
+      "thumbnail": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_cover.jpg",
+      "created_at": "2023-01-12 20:59:51",
+      "pages": [
+        {
+          "id": "19",
+          "text": "A Very Busy Day",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_cover.jpg",
+          "image_width": "1181",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_1.mp3",
+          "transcript": [
+            [
+              "a",
+              0.25,
+              0.32
+            ],
+            [
+              "very",
+              0.32,
+              0.81
+            ],
+            [
+              "busy",
+              0.81,
+              1.31
+            ],
+            [
+              "day",
+              1.31,
+              1.73
+            ]
+          ]
+        },
+        {
+          "id": "20",
+          "text": "",
+          "is_story_page": false,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page1.jpg",
+          "image_width": "1181",
+          "image_height": "1181",
+          "audio_url": ""
+        },
+        {
+          "id": "21",
+          "text": "",
+          "is_story_page": false,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page2.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": ""
+        },
+        {
+          "id": "22",
+          "text": "",
+          "is_story_page": false,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page3.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": ""
+        },
+        {
+          "id": "23",
+          "text": "Today is a very busy day! Mama and I have lots of things to do and see.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page4.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_5.mp3",
+          "transcript": [
+            [
+              "today",
+              4.02,
+              4.51
+            ],
+            [
+              "is",
+              4.51,
+              4.71
+            ],
+            [
+              "a",
+              4.71,
+              4.8
+            ],
+            [
+              "very",
+              4.8,
+              5.21
+            ],
+            [
+              "busy",
+              5.21,
+              5.6
+            ],
+            [
+              "day",
+              5.6,
+              6.04
+            ],
+            [
+              "mom",
+              6.56,
+              6.81
+            ],
+            [
+              "and",
+              6.81,
+              7.06
+            ],
+            [
+              "I",
+              7.06,
+              7.2
+            ],
+            [
+              "have",
+              7.2,
+              7.47
+            ],
+            [
+              "lots",
+              7.47,
+              8.22
+            ],
+            [
+              "of",
+              8.22,
+              8.33
+            ],
+            [
+              "things",
+              8.33,
+              8.67
+            ],
+            [
+              "to",
+              8.67,
+              8.82
+            ],
+            [
+              "do",
+              8.82,
+              9.02
+            ],
+            [
+              "and",
+              9.02,
+              9.41
+            ],
+            [
+              "see",
+              9.41,
+              9.85
+            ]
+          ]
+        },
+        {
+          "id": "24",
+          "text": "We walk to the station and find people in a queue. Old people and young people, loud people and quiet people, all going to town.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page5.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_6.mp3",
+          "transcript": [
+            [
+              "we",
+              0.58,
+              0.78
+            ],
+            [
+              "walked",
+              0.78,
+              1.04
+            ],
+            [
+              "to",
+              1.04,
+              1.18
+            ],
+            [
+              "the",
+              1.18,
+              1.32
+            ],
+            [
+              "station",
+              1.32,
+              2.18
+            ],
+            [
+              "and",
+              2.18,
+              2.52
+            ],
+            [
+              "find",
+              2.52,
+              2.92
+            ],
+            [
+              "people",
+              2.92,
+              3.36
+            ],
+            [
+              "in",
+              3.36,
+              3.62
+            ],
+            [
+              "the",
+              3.62,
+              3.82
+            ],
+            [
+              "cue",
+              3.82,
+              4.9
+            ],
+            [
+              "old",
+              4.9,
+              5.4
+            ],
+            [
+              "people",
+              5.4,
+              6.14
+            ],
+            [
+              "and",
+              6.14,
+              6.56
+            ],
+            [
+              "young",
+              6.56,
+              6.9
+            ],
+            [
+              "people",
+              6.9,
+              7.66
+            ],
+            [
+              "loud",
+              7.66,
+              8.32
+            ],
+            [
+              "people",
+              8.32,
+              9.06
+            ],
+            [
+              "and",
+              9.06,
+              9.52
+            ],
+            [
+              "quiet",
+              9.52,
+              10.0
+            ],
+            [
+              "people",
+              10.0,
+              10.8
+            ],
+            [
+              "all",
+              10.8,
+              11.16
+            ],
+            [
+              "going",
+              11.16,
+              11.42
+            ],
+            [
+              "to",
+              11.42,
+              11.68
+            ],
+            [
+              "town",
+              11.68,
+              11.96
+            ]
+          ]
+        },
+        {
+          "id": "25",
+          "text": "Through the minibus window, I see cars driving by. Fast cars and slow cars, big cars and small cars.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page6.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_7.mp3",
+          "transcript": [
+            [
+              "through",
+              0.11,
+              0.27
+            ],
+            [
+              "the",
+              0.27,
+              0.39
+            ],
+            [
+              "minibus",
+              0.39,
+              0.95
+            ],
+            [
+              "windows",
+              0.95,
+              1.45
+            ],
+            [
+              "I",
+              1.84,
+              1.96
+            ],
+            [
+              "see",
+              1.96,
+              2.26
+            ],
+            [
+              "because",
+              2.26,
+              2.71
+            ],
+            [
+              "driving",
+              2.71,
+              3.3
+            ],
+            [
+              "by",
+              3.3,
+              3.73
+            ],
+            [
+              "saw",
+              4.16,
+              4.4
+            ],
+            [
+              "Scott",
+              4.4,
+              4.9
+            ],
+            [
+              "and",
+              5.22,
+              5.53
+            ],
+            [
+              "no",
+              5.71,
+              6.23
+            ],
+            [
+              "because",
+              6.26,
+              6.71
+            ],
+            [
+              "being",
+              6.96,
+              7.31
+            ],
+            [
+              "because",
+              7.31,
+              7.8
+            ],
+            [
+              "hands",
+              7.94,
+              8.32
+            ],
+            [
+              "moved",
+              8.42,
+              9.03
+            ],
+            [
+              "because",
+              9.03,
+              9.54
+            ]
+          ]
+        },
+        {
+          "id": "26",
+          "text": "There are so many buildings in town! Tall ones and short ones, glass ones and brick ones, everywhere I look.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page7.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_8.mp3",
+          "transcript": [
+            [
+              "There",
+              0,
+              0.33
+            ],
+            [
+              "are",
+              0.33,
+              0.51
+            ],
+            [
+              "so",
+              0.51,
+              0.87
+            ],
+            [
+              "many",
+              0.87,
+              1.19
+            ],
+            [
+              "buildings",
+              1.19,
+              1.84
+            ],
+            [
+              "in",
+              1.84,
+              1.98
+            ],
+            [
+              "town",
+              1.98,
+              2.58
+            ],
+            [
+              "told",
+              2.98,
+              3.37
+            ],
+            [
+              "one",
+              3.37,
+              3.69
+            ],
+            [
+              "and",
+              3.95,
+              4.24
+            ],
+            [
+              "show",
+              4.24,
+              4.68
+            ],
+            [
+              "one",
+              4.68,
+              5.01
+            ],
+            [
+              "lost",
+              5.01,
+              6.09
+            ],
+            [
+              "one",
+              6.09,
+              6.38
+            ],
+            [
+              "and",
+              6.68,
+              6.93
+            ],
+            [
+              "brick",
+              6.93,
+              7.36
+            ],
+            [
+              "ones",
+              8.36,
+              8.63
+            ],
+            [
+              "everywhere",
+              8.63,
+              9.15
+            ],
+            [
+              "I",
+              9.15,
+              9.25
+            ],
+            [
+              "look",
+              9.25,
+              11
+            ]
+          ]
+        },
+        {
+          "id": "27",
+          "text": "Mama and I walk in and out of shops. Shops for clothes and shops for books, shops for bags and all sorts of things.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page8.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_9.mp3",
+          "transcript": [
+            [
+              "mom",
+              0.4,
+              0.69
+            ],
+            [
+              "and",
+              0.69,
+              0.96
+            ],
+            [
+              "I",
+              0.96,
+              1.07
+            ],
+            [
+              "walked",
+              1.07,
+              1.43
+            ],
+            [
+              "in",
+              1.46,
+              1.79
+            ],
+            [
+              "and",
+              1.93,
+              2.12
+            ],
+            [
+              "out",
+              2.15,
+              2.34
+            ],
+            [
+              "to",
+              2.34,
+              2.43
+            ],
+            [
+              "shops",
+              2.43,
+              2.84
+            ],
+            [
+              "jumps",
+              3.65,
+              4.01
+            ],
+            [
+              "to",
+              4.01,
+              4.16
+            ],
+            [
+              "codes",
+              4.16,
+              4.74
+            ],
+            [
+              "and",
+              4.92,
+              5.12
+            ],
+            [
+              "she",
+              5.12,
+              5.25
+            ],
+            [
+              "also",
+              5.25,
+              5.52
+            ],
+            [
+              "books",
+              5.52,
+              6.08
+            ],
+            [
+              "shop",
+              6.35,
+              6.62
+            ],
+            [
+              "so",
+              6.62,
+              6.8
+            ],
+            [
+              "bags",
+              6.8,
+              7.46
+            ],
+            [
+              "and",
+              7.68,
+              7.89
+            ],
+            [
+              "all",
+              7.89,
+              8.12
+            ],
+            [
+              "sorts",
+              8.12,
+              8.77
+            ],
+            [
+              "of",
+              8.77,
+              8.9
+            ],
+            [
+              "things",
+              8.9,
+              9.46
+            ]
+          ]
+        },
+        {
+          "id": "28",
+          "text": "Mama tries on some shoes. Red shoes and green shoes, high shoes and low shoes.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page9.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_10.mp3",
+          "transcript": [
+            [
+              "moma",
+              0.29,
+              0.61
+            ],
+            [
+              "tries",
+              0.61,
+              1.03
+            ],
+            [
+              "on",
+              1.03,
+              1.22
+            ],
+            [
+              "some",
+              1.22,
+              1.42
+            ],
+            [
+              "shoes",
+              1.42,
+              2.05
+            ],
+            [
+              "red",
+              2.44,
+              2.86
+            ],
+            [
+              "shoes",
+              2.86,
+              3.41
+            ],
+            [
+              "I'm",
+              3.47,
+              3.66
+            ],
+            [
+              "green",
+              3.66,
+              4.08
+            ],
+            [
+              "shoes",
+              4.08,
+              4.56
+            ],
+            [
+              "hi",
+              4.74,
+              5.17
+            ],
+            [
+              "issues",
+              5.17,
+              5.81
+            ],
+            [
+              "and",
+              5.97,
+              6.21
+            ],
+            [
+              "low",
+              6.21,
+              6.57
+            ],
+            [
+              "shoes",
+              6.57,
+              7.25
+            ]
+          ]
+        },
+        {
+          "id": "29",
+          "text": "On the street, everyone is friendly. They all say \"Hello\", \"Bonjour\", \"Ola\", \"Jambo\"!",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page10.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_11.mp3",
+          "transcript": [
+            [
+              "on",
+              0.23,
+              0.43
+            ],
+            [
+              "the",
+              0.43,
+              0.53
+            ],
+            [
+              "street",
+              0.53,
+              0.94
+            ],
+            [
+              "everyone",
+              0.99,
+              1.49
+            ],
+            [
+              "is",
+              1.49,
+              1.64
+            ],
+            [
+              "friendly",
+              1.64,
+              2.29
+            ],
+            [
+              "they",
+              2.62,
+              2.73
+            ],
+            [
+              "all",
+              2.73,
+              2.95
+            ],
+            [
+              "say",
+              2.95,
+              3.18
+            ],
+            [
+              "hello",
+              3.18,
+              3.53
+            ],
+            [
+              "%HESITATION",
+              3.53,
+              4.74
+            ],
+            [
+              "mon",
+              4.74,
+              5.6
+            ],
+            [
+              "jul",
+              5.6,
+              6.9
+            ]
+          ]
+        },
+        {
+          "id": "30",
+          "text": "We take a break on the picnic blanket at the park. We see people exercising and playing instruments. People reading books and eating ice cream.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page11.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_12.mp3",
+          "transcript": [
+            [
+              "we",
+              0.84,
+              0.99
+            ],
+            [
+              "take",
+              0.99,
+              1.29
+            ],
+            [
+              "a",
+              1.29,
+              1.35
+            ],
+            [
+              "break",
+              1.35,
+              1.71
+            ],
+            [
+              "on",
+              1.71,
+              1.84
+            ],
+            [
+              "the",
+              1.84,
+              1.94
+            ],
+            [
+              "picnic",
+              1.94,
+              2.44
+            ],
+            [
+              "blanket",
+              2.44,
+              2.93
+            ],
+            [
+              "at",
+              2.93,
+              3.11
+            ],
+            [
+              "the",
+              3.11,
+              3.21
+            ],
+            [
+              "park",
+              3.21,
+              3.69
+            ],
+            [
+              "we",
+              4.13,
+              4.33
+            ],
+            [
+              "see",
+              4.33,
+              4.6
+            ],
+            [
+              "people",
+              4.6,
+              4.95
+            ],
+            [
+              "exercising",
+              4.98,
+              5.84
+            ],
+            [
+              "and",
+              6.05,
+              6.26
+            ],
+            [
+              "playing",
+              6.26,
+              6.66
+            ],
+            [
+              "instrument",
+              6.69,
+              7.25
+            ],
+            [
+              "people",
+              7.75,
+              8.17
+            ],
+            [
+              "reading",
+              8.17,
+              8.6
+            ],
+            [
+              "books",
+              8.6,
+              9.14
+            ],
+            [
+              "and",
+              9.36,
+              9.7
+            ],
+            [
+              "eating",
+              9.7,
+              10.27
+            ],
+            [
+              "ice",
+              10.3,
+              10.62
+            ],
+            [
+              "cream",
+              10.62,
+              11.11
+            ]
+          ]
+        },
+        {
+          "id": "31",
+          "text": "In a big store, we fill a trolley with food. Boxes of cereal, and sacks of fruit. Bags of flour and bottles of juice.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page12.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_13.mp3",
+          "transcript": [
+            [
+              "in",
+              0.18,
+              0.37
+            ],
+            [
+              "a",
+              0.37,
+              0.47
+            ],
+            [
+              "big",
+              0.47,
+              0.86
+            ],
+            [
+              "still",
+              0.86,
+              1.35
+            ],
+            [
+              "we",
+              1.56,
+              1.74
+            ],
+            [
+              "still",
+              1.74,
+              2.16
+            ],
+            [
+              "a",
+              2.16,
+              2.28
+            ],
+            [
+              "Charlie",
+              2.28,
+              2.67
+            ],
+            [
+              "with",
+              2.67,
+              2.84
+            ],
+            [
+              "food",
+              2.84,
+              3.27
+            ],
+            [
+              "boxes",
+              3.75,
+              4.23
+            ],
+            [
+              "of",
+              4.23,
+              4.37
+            ],
+            [
+              "cereal",
+              4.37,
+              4.97
+            ],
+            [
+              "and",
+              5.3,
+              5.58
+            ],
+            [
+              "sacks",
+              5.58,
+              6.09
+            ],
+            [
+              "%HESITATION",
+              6.09,
+              6.29
+            ],
+            [
+              "fruit",
+              6.34,
+              6.89
+            ],
+            [
+              "bags",
+              7.31,
+              7.73
+            ],
+            [
+              "of",
+              7.73,
+              7.89
+            ],
+            [
+              "flour",
+              7.89,
+              8.49
+            ],
+            [
+              "and",
+              8.73,
+              9.02
+            ],
+            [
+              "a",
+              9.05,
+              9.08
+            ],
+            [
+              "bottle",
+              9.08,
+              9.56
+            ],
+            [
+              "of",
+              9.59,
+              9.84
+            ],
+            [
+              "juice",
+              9.84,
+              10.44
+            ]
+          ]
+        },
+        {
+          "id": "32",
+          "text": "Mama shows me the toys and asks me to choose! There are soft toys and round toys, loud toys and fast toys.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page13.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_14.mp3",
+          "transcript": [
+            [
+              "mumble",
+              0.31,
+              0.67
+            ],
+            [
+              "shows",
+              0.67,
+              1.03
+            ],
+            [
+              "the",
+              1.03,
+              1.14
+            ],
+            [
+              "the",
+              1.14,
+              1.26
+            ],
+            [
+              "toys",
+              1.26,
+              1.9
+            ],
+            [
+              "and",
+              2.16,
+              2.38
+            ],
+            [
+              "asked",
+              2.38,
+              2.79
+            ],
+            [
+              "me",
+              2.79,
+              3.07
+            ],
+            [
+              "to",
+              3.1,
+              3.27
+            ],
+            [
+              "choose",
+              3.27,
+              3.85
+            ],
+            [
+              "the",
+              4.26,
+              4.4
+            ],
+            [
+              "a",
+              4.4,
+              4.52
+            ],
+            [
+              "soft",
+              4.52,
+              5.18
+            ],
+            [
+              "toys",
+              5.18,
+              5.7
+            ],
+            [
+              "and",
+              5.86,
+              6.1
+            ],
+            [
+              "Ron",
+              6.1,
+              6.6
+            ],
+            [
+              "toys",
+              6.6,
+              7.2
+            ],
+            [
+              "loud",
+              7.46,
+              8.07
+            ],
+            [
+              "toys",
+              8.07,
+              8.53
+            ],
+            [
+              "and",
+              8.53,
+              8.63
+            ],
+            [
+              "loud",
+              8.63,
+              9.07
+            ],
+            [
+              "toys",
+              9.07,
+              9.53
+            ]
+          ]
+        },
+        {
+          "id": "33",
+          "text": "Today we've bought lots of things! Bags of food and bags of clothes. A pair of shoes and even some treats.",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page14.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_15.mp3",
+          "transcript": [
+            [
+              "today",
+              0.0,
+              0.43
+            ],
+            [
+              "we",
+              0.43,
+              0.6
+            ],
+            [
+              "put",
+              0.6,
+              0.85
+            ],
+            [
+              "lots",
+              0.85,
+              1.33
+            ],
+            [
+              "of",
+              1.33,
+              1.46
+            ],
+            [
+              "things",
+              1.46,
+              1.96
+            ],
+            [
+              "bags",
+              2.77,
+              3.21
+            ],
+            [
+              "of",
+              3.21,
+              3.33
+            ],
+            [
+              "food",
+              3.33,
+              3.87
+            ],
+            [
+              "and",
+              4.02,
+              4.27
+            ],
+            [
+              "bags",
+              4.27,
+              4.65
+            ],
+            [
+              "of",
+              4.65,
+              4.85
+            ],
+            [
+              "clothes",
+              4.85,
+              5.65
+            ],
+            [
+              "a",
+              5.89,
+              5.98
+            ],
+            [
+              "pair",
+              5.98,
+              6.31
+            ],
+            [
+              "of",
+              6.31,
+              6.4
+            ],
+            [
+              "shoes",
+              6.4,
+              6.92
+            ],
+            [
+              "and",
+              7.13,
+              7.34
+            ],
+            [
+              "even",
+              7.39,
+              7.75
+            ],
+            [
+              "some",
+              7.75,
+              7.98
+            ],
+            [
+              "treats",
+              7.98,
+              8.47
+            ]
+          ]
+        },
+        {
+          "id": "34",
+          "text": "Back at home, in our quiet house, I take out the special gift that Mama bought just for me!",
+          "is_story_page": true,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page15.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/audio\/english\/page_16.mp3",
+          "transcript": [
+            [
+              "back",
+              0.52,
+              0.86
+            ],
+            [
+              "at",
+              0.86,
+              0.96
+            ],
+            [
+              "home",
+              0.96,
+              1.4
+            ],
+            [
+              "you",
+              1.68,
+              1.77
+            ],
+            [
+              "know",
+              1.77,
+              1.96
+            ],
+            [
+              "quiet",
+              1.96,
+              2.7
+            ],
+            [
+              "house",
+              2.7,
+              3.15
+            ],
+            [
+              "I",
+              3.63,
+              3.75
+            ],
+            [
+              "take",
+              3.75,
+              4.16
+            ],
+            [
+              "up",
+              4.16,
+              4.35
+            ],
+            [
+              "this",
+              4.35,
+              4.54
+            ],
+            [
+              "special",
+              4.54,
+              5.17
+            ],
+            [
+              "gift",
+              5.17,
+              5.56
+            ],
+            [
+              "that",
+              5.76,
+              5.99
+            ],
+            [
+              "mama",
+              5.99,
+              6.35
+            ],
+            [
+              "boards",
+              6.35,
+              6.73
+            ],
+            [
+              "just",
+              6.77,
+              7.17
+            ],
+            [
+              "for",
+              7.17,
+              7.36
+            ],
+            [
+              "me",
+              7.36,
+              7.83
+            ]
+          ]
+        },
+        {
+          "id": "35",
+          "text": "",
+          "is_story_page": false,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page16.jpg",
+          "image_width": "2362",
+          "image_height": "1181",
+          "audio_url": ""
+        },
+        {
+          "id": "36",
+          "text": "",
+          "is_story_page": false,
+          "image": "https:\/\/sittingduckgames.com\/aviationlearn\/dino-reader\/book\/a-very-busy-day\/images\/a-very-busy-day_en_20191124_page17.jpg",
+          "image_width": "1181",
+          "image_height": "1181",
+          "audio_url": ""
+        }]
+    }
+  ]
+}

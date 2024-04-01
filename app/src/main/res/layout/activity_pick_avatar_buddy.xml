@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/collection_background"
+    tools:context=".ui.activities.readingbuddy.PickAvatarBuddyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/top_navigation_without_search" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    app:cardElevation="@dimen/_2sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/red_gradient"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:paddingVertical="@dimen/_6sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_selected_frame"
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/avatar_frame_2"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:layout_height="@dimen/_120sdp">
+                        </ImageView>
+                        <ImageView
+                            android:id="@+id/iv_selected_avatar"
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/reader_buddy_1"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:layout_height="@dimen/_120sdp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/tv_avatar_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:text="Buddy"
+                            android:layout_gravity="bottom"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_18sdp" />
+                    </FrameLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_8sdp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/light_green"
+                android:padding="@dimen/_14sdp"
+                android:text="Select Avatar"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:layout_marginVertical="@dimen/_16sdp"
+                    android:shadowColor="@color/white"
+                    android:shadowRadius="10"
+                    android:text="Pick Your Avatar"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_avatar_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/avatar_list_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:layout_marginVertical="@dimen/_16sdp"
+                    android:shadowColor="@color/white"
+                    android:shadowRadius="10"
+                    android:text="Pick A Frame"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_frame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/avatar_frame_list_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

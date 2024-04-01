@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_gradient_bg"
+    tools:context=".ui.activities.ownstory.CanvasSelection">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:id="@+id/ll_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="5dp">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/back_arrow_new" />
+            </LinearLayout>
+
+            <gibbie.dino.readers.customlayout.OutlineTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                app:textFillColor="@color/white"
+                app:textOutlineColor="@color/black"
+                app:textSize="28sp"
+                app:strokeWidth="2dp"
+                app:text="Lets Begin!"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardBackgroundColor="#7c70de">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/books_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-3dp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:text="Choose a design"
+                        android:fontFamily="@font/ruddy_black"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:translationZ="@dimen/_20sdp"
+                        android:layout_marginHorizontal="3dp"
+                        android:layout_marginTop="-4dp"
+                        android:layout_height="2dp"
+                        android:background="@color/white"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:itemCount="5"
+            tools:listitem="@layout/canvas_own_story_item"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

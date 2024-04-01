@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/class_background" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/Parent_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/cl_fab_core">
+        <!--This will be the parent Floating Action Button-->
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/setting_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:backgroundTint="@color/white"
+            android:text="Settings"
+            android:textColor="@color/black"
+            app:icon="@drawable/settings"
+            app:iconTint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <!--Floating action button for add alarm-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/join_class_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:backgroundTint="@color/white"
+            app:fabSize="auto"
+            app:tint="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/setting_fab"
+            app:layout_constraintEnd_toEndOf="@+id/setting_fab"
+            app:srcCompat="@drawable/add_circle"
+            android:contentDescription="@string/app_name" />
+        <!--Action name text for the add class button-->
+        <TextView
+            android:id="@+id/join_class_action_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Join Class"
+            android:fontFamily="@font/stanberry"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/join_class_fab"
+            app:layout_constraintEnd_toStartOf="@+id/join_class_fab"
+            app:layout_constraintTop_toTopOf="@+id/join_class_fab" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/class_background"
+    tools:context=".ui.activities.readingbuddy.ReadingBuddyActivity">
+
+    <LinearLayout
+        android:id="@id/ll_root"
+        android:layout_width="@dimen/_320sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginHorizontal="@dimen/_24sdp"
+        android:background="@drawable/big_book"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_page_text"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_32sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:text="@string/create_your_own_story"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <LinearLayout
+            android:id="@+id/ll_page_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:gravity="center"
+            android:padding="@dimen/_24sdp">
+
+            <ImageView
+                android:id="@+id/iv_page_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/book_2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/outline_btn_listen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/button_outline_null"
+        android:elevation="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_listen"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/listen"
+            android:gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/outline_btn_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:background="@drawable/button_outline_null"
+        android:elevation="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outline_btn_listen">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_speak"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/read_to_me"
+            android:gravity="bottom" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="50dp"
+        app:cardBackgroundColor="#f3ad0f"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardElevation="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:src="@drawable/star" />
+
+        <TextView
+            android:id="@+id/tv_reading_buddy_point"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="27"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:src="@drawable/reader_buddy_1"
+        android:translationZ="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outline_btn_speak" />
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_balon"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginRight="@dimen/_80sdp"
+        android:background="@drawable/dialog_box"
+        android:orientation="horizontal"
+        android:translationZ="@dimen/_25sdp"
+        app:layout_constraintBottom_toTopOf="@+id/iv_avatar"
+        app:layout_constraintEnd_toStartOf="@+id/outline_btn_speak"
+        app:layout_constraintStart_toEndOf="@+id/ll_root"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_buddy_message"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_14sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:textAlignment="center"
+            android:lineHeight="@dimen/_24sdp"
+            android:text="Let's try again. Say 'tra-app-ed'"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

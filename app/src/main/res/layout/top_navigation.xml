@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:scaleType="centerInside"
+        android:paddingTop="@dimen/_2sdp"
+        android:src="@drawable/logo_no_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:padding="@dimen/_7sdp"
+            app:cardPreventCornerOverlap="false">
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+
+                android:src="@drawable/profile"
+                />
+        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/search"/>
+    </LinearLayout>
+</LinearLayout>

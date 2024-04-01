@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ownstory.ReadOwnStory">
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/canvas_1"
+        />
+    <ImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/black"
+        android:src="@drawable/dino_loading"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingHorizontal="100dp"
+        android:paddingVertical="15dp"
+        android:layout_marginBottom="100dp">
+        <gibbie.dino.readers.customlayout.OutlineTextView
+            android:id="@+id/tv_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            app:customFont="@font/ruddy_bold"
+            app:textSize="28sp"
+            app:textFillColor="@color/yellow"
+            app:strokeWidth="2.5dp"
+            app:text="Hello how are you, this is a long story text, testing for long line"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_btn_listen"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/listen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_btn_next"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:layout_marginEnd="@dimen/_14sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_btn_prev"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:layout_marginStart="@dimen/_14sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

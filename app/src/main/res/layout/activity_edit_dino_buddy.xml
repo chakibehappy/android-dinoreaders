@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.readingbuddy.EditDinoBuddy"
+    android:background="#67df94">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/back_arrow_new"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <gibbie.dino.readers.customlayout.OutlineTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:text="Dino Buddy"
+                app:strokeWidth="2dp"
+                app:textSize="32sp"
+                app:customFont="@font/ruddy_bold"
+                app:textFillColor="@color/white"
+                app:textOutlineColor="@color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/background_selected_avatar"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardCornerRadius="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:elevation="0dp">
+                <ImageView
+                    android:id="@+id/iv_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/iv_selected_accessory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:padding="25dp"
+                    android:src="@drawable/avatar_frame_2" />
+                <ImageView
+                    android:id="@+id/iv_selected_avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/t_rex" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout
+                android:id="@+id/btn_save"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <gibbie.dino.readers.customlayout.StylishButton
+                    android:layout_width="match_parent"
+                    android:paddingVertical="15dp"
+                    app:cardElevation="3dp"
+                    app:strokeWidth="2dp"
+                    app:strokeColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    app:buttonText="Save!"
+                    app:buttonColor="@color/yellow"
+                    app:gradientBackground="@drawable/gradient_yellow"
+                    app:buttonTextSize="22sp">
+
+                </gibbie.dino.readers.customlayout.StylishButton>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:translationZ="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.card.MaterialCardView
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/tab_avatar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                app:cardCornerRadius="0dp"
+                app:cardBackgroundColor="@color/active_tab"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="@color/black">
+
+                <gibbie.dino.readers.customlayout.OutlineTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    app:textSize="18dp"
+                    app:strokeWidth="1.5dp"
+                    app:textFillColor="@color/white"
+                    app:text="Choose a Friend!"/>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/tab_accessory"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                app:cardCornerRadius="0dp"
+                app:cardBackgroundColor="@color/inactive_tab"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="@color/black">
+                <gibbie.dino.readers.customlayout.OutlineTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    app:textSize="18dp"
+                    app:strokeWidth="1dp"
+                    app:textFillColor="@color/white"
+                    app:text="Accessory"/>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/tab_background"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                app:cardCornerRadius="0dp"
+                app:cardBackgroundColor="@color/inactive_tab"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="@color/black">
+                <gibbie.dino.readers.customlayout.OutlineTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    app:textSize="18dp"
+                    app:strokeWidth="1dp"
+                    app:textFillColor="@color/white"
+                    app:text="Background"/>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_marginTop="-5dp"
+            android:paddingTop="5dp"
+            android:id="@+id/ll_collection_section"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/collection_tab"
+            app:cardCornerRadius="0dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_avatar_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="3"
+                tools:itemCount="12"
+                tools:listitem="@layout/avatar_buddy_item" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_accessory"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/avatar_frame_list_item"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="3"
+                tools:itemCount="12"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_background"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/avatar_frame_list_item"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="3"
+                tools:itemCount="12"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

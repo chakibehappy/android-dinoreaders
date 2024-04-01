@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#67e094"
+    tools:context=".ui.activities.ownstory.CreateOwnStory">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_canvas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/full_canvas_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/label_create_story"
+            app:layout_constraintEnd_toEndOf="@+id/iv_canvas"
+            app:layout_constraintStart_toStartOf="@+id/iv_canvas"
+            app:layout_constraintTop_toTopOf="@+id/iv_canvas" />
+
+        <ImageView
+            android:id="@+id/btn_add_cover"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/btn_add_cover"
+            app:layout_constraintEnd_toEndOf="@+id/iv_canvas"
+            app:layout_constraintTop_toTopOf="@+id/iv_canvas" />
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/btn_delete_page"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_canvas"
+            app:layout_constraintEnd_toEndOf="@+id/iv_canvas" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_canvas"
+            app:layout_constraintStart_toStartOf="@+id/iv_canvas">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_speak"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/btn_speak_new" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_listen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/btn_listen_new" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <TextView
+        android:id="@+id/tv_story"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/ruddy_bold"
+        android:lineHeight="21dp"
+        android:layout_marginTop="80dp"
+        android:paddingHorizontal="60dp"
+        android:layout_marginBottom="130dp"
+        android:text="@string/record_msg"
+        android:textColor="#396fa2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cl_body"
+        app:layout_constraintEnd_toEndOf="@id/guideline_middle"
+        app:layout_constraintStart_toStartOf="@id/guideline_middle"
+        app:layout_constraintTop_toTopOf="@+id/cl_body"
+        app:layout_constraintWidth_percent="0.5" />
+
+
+    <EditText
+        android:id="@+id/et_story"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/ruddy_bold"
+        android:lineHeight="21dp"
+        android:layout_marginTop="80dp"
+        android:paddingHorizontal="60dp"
+        android:layout_marginBottom="130dp"
+        android:background="@color/transparent"
+        android:textColor="#396fa2"
+        android:textSize="18sp"
+        android:gravity="top"
+        app:layout_constraintBottom_toBottomOf="@+id/cl_body"
+        app:layout_constraintEnd_toEndOf="@id/guideline_middle"
+        app:layout_constraintStart_toStartOf="@id/guideline_middle"
+        app:layout_constraintTop_toTopOf="@+id/cl_body"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="14dp"
+        android:src="@drawable/close_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_prev"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/btn_back_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/btn_next_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/btn_save"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/btn_save_story"
+            android:layout_marginBottom="20dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_edit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_edit_story" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

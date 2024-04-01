@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/collection_bg" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:background="@drawable/search_bar"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/et_search"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_60sdp"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:hint="@string/search"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_55sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/search_bar_text"
+                            android:textSize="@dimen/_11sdp"
+                            android:theme="@style/MyEditTextTheme" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gridView_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:columnWidth="@dimen/_110sdp"
+                    android:dividerHeight="@dimen/_30sdp"
+                    android:gravity="center|bottom"
+                    android:horizontalSpacing="@dimen/_3sdp"
+                    android:numColumns="5"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingBottom="15dp"
+
+                    android:verticalSpacing="@dimen/_10sdp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/Parent_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</FrameLayout>

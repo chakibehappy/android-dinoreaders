@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_220sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/dialogBg"
+    app:cardCornerRadius="@dimen/_10sdp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv_age"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@color/black"
+        android:text="Age"
+        android:background="@color/dialogBg"
+        android:textSize="@dimen/_15sdp"/>
+    <View
+        android:id="@+id/line_age"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/black"/>
+
+
+
+    <NumberPicker
+        android:id="@+id/np_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/NumberPicker"
+        android:solidColor="@color/dialogBg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:background="@color/dialogBg"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/black"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:text="Cancel" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content"
+            android:background="@color/dialogBg"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:text="Save" />
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

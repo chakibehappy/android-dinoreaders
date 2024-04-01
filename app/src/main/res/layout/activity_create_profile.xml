@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.profile.CreateProfileActivity">
+
+    <FrameLayout
+        android:id="@+id/ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:background="@drawable/login_bg">
+        <ImageView
+            android:id="@+id/background_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_bg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_back"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:src="@drawable/backarrow" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:paddingEnd="@dimen/_40sdp"
+                    android:gravity="center"
+                    android:text="@string/create_profile"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_to_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_15sdp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/ll_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardCornerRadius="@dimen/_50sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                app:cardElevation="-1dp"
+                                app:cardPreventCornerOverlap="false">
+                                <ImageView
+                                    android:id="@+id/iv_profile"
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="@dimen/_100sdp"
+
+                                    android:src="@drawable/profile"/>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </FrameLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/item_tv_rl_input_name"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/quicksand_bold"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_16sdp"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/name" />
+                            <LinearLayout
+                                android:id="@+id/ll_input_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/tv_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/quicksand_bold"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_16sdp"
+                                    android:paddingBottom="@dimen/_15sdp"
+                                    android:layout_alignRight="@id/edit_name"
+                                    />
+                            </LinearLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_alignBottom="@+id/ll_input_name"
+                                android:background="@android:color/white"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/quicksand_bold"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_16sdp"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/age" />
+                            <LinearLayout
+                                android:id="@+id/ll_input_dob"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/tv_age"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/quicksand_bold"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_16sdp"
+                                    android:paddingBottom="@dimen/_15sdp"
+                                    android:text="@string/undisclosed"
+                                    android:layout_alignRight="@id/edit_dob"
+                                    />
+                                <ImageView
+                                    android:id="@+id/edit_dob"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/edit"
+                                    />
+                            </LinearLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_alignBottom="@+id/ll_input_dob"
+                                android:background="@android:color/white"/>
+                        </RelativeLayout>
+
+
+
+
+                        <Button
+                            android:id="@+id/btn_register"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:background="@drawable/button"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:text="@string/create"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_16sdp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
